@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "validate": "node scripts/preprocess-data.js",
-    "convert-jsonl": "node scripts/convert-to-jsonl.js",
+    "convert-jsonl": "node scripts/fix-json-to-jsonl.js",
     "merge-jsonl": "node scripts/merge-jsonl.js",
     "check-prompts": "node scripts/check-prompts.js"
   },
