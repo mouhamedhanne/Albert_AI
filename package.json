@@ -1,0 +1,26 @@
+{
+  "name": "fine-tuning-onlineclass-pro",
+  "version": "1.0.0",
+  "description": "Albert AI est une initiative visant à révolutionner l'apprentissage technique et professionnel grâce à l'intelligence artificielle",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node scripts/preprocess-data.js",
+    "convert-jsonl": "node scripts/convert-to-jsonl.js",
+    "merge-jsonl": "node scripts/merge-jsonl.js",
+    "check-prompts": "node scripts/check-prompts.js"
+  },
+  "keywords": [
+    "fine-tuning",
+    "openai",
+    "apprentissage technique",
+    "Albert AI",
+    "education",
+    "electricite",
+    "mécanique"
+  ],
+  "author": "Mouhamed El Malick Hanne",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.12.0"
+  }
+}
